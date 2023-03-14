@@ -1,0 +1,422 @@
+p{
+    font-size: small;
+    color: white;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+strong{
+    color: white;
+}
+
+.main{
+    
+    height: fit-content;
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    background-color: #020024;
+    font-family:sans-serif;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+   
+
+}
+.firstrow {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.firstrow button{
+    margin-right: 100px;
+    height: 40px;
+    width: fit-content;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.firstrow p{
+
+margin-left: 100px;
+
+}
+.sectiontwo{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.icons{
+ height: auto;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+
+
+}
+  .one{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url('/public/images/facebook.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+
+}
+ .two{
+    
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url('/public/images/linkedin.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.three{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url('/public/images/github.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section3{
+    margin-top: 20vh;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.avatar{
+    background-color: lightblue;
+    border-radius: 50px;
+margin-bottom: 50px;
+    width: 350px;
+    height: 300px;
+    background-image: url('/public/images/dev-ed-wave.png');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+
+
+
+}
+.section5{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 80%;
+    margin-left: 100px;
+    justify-content: space-between;
+
+
+}
+
+.card1{
+    border-radius: 30px;
+    background-color:  #ffe4e1;
+    width: 25vw;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+
+
+}
+
+.flutter{
+    
+    margin-top: 10px;
+    background-color: transparent;
+    width: 80px;
+    height: 100px;
+    background-image: url('/public/images/android.png');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    animation: 5s infinite alternate slidein;
+   
+}
+.section4{
+margin-left: 100px;
+
+
+
+}
+.android{
+    margin-top: 10px;
+    background-color:transparent;
+    width: 80px;
+    height: 100px;
+    background-image: url('/public/images/flutter.png');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    animation: 5s infinite alternate slidein;
+}
+.web{
+
+    margin-top: 10px;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    background-image: url('/public/images/react.png');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    animation: 5s infinite alternate slidein;
+
+}
+
+.dashcam{
+    margin-top: 10px;
+    background-color:transparent;
+    width: 80px;
+    height: 100px;
+    background-image: url('/public/images/dashcam.jpeg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.section7{
+    margin-left: 100px;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+    
+    }
+    .project1{
+        margin-top: 40px;
+display: flex;
+flex-direction: row;
+
+height: auto;
+justify-content: space-between;
+
+
+
+
+    }
+    
+    .picture1{
+        flex: 1;
+        background-color:transparent;
+        border-radius: 150px;
+    margin-bottom: 50px;
+        width: 400px;
+        height: 900px;
+        background-image: url('/public/images/plant1.jpeg');
+        background-size: contain;
+        background-position:center center;
+        background-repeat: no-repeat;
+        flex: 1;
+   
+
+    
+    
+    }
+    .picture2{
+        flex: 1;
+        background-color:transparent;
+                        border-radius: 150px;
+    margin-bottom: 50px;
+        width: 400px;
+        height: 900px;
+        background-image: url('/public/images/plant2.jpeg');
+        background-size:contain;
+        background-position:center;
+        background-repeat: no-repeat;
+
+    
+    }
+    .project2{
+        display: flex;
+        flex-direction: row;
+        
+        height: auto;
+        justify-content: space-between;
+        
+        
+        
+        
+            }
+            .project3{
+                display: flex;
+                flex-direction: row;
+                
+                height: auto;
+                justify-content: space-between;
+                
+                
+                
+                
+                    }
+                    .picture3{
+                        flex:1;
+                        background-color:transparent;
+                        border-radius: 150px;
+                    margin-bottom: 50px;
+                        width: 400px;
+                        height: 900px;
+                        background-image: url('/public/images/dashcam.jpeg');
+                        background-size: contain;
+                        background-position:center;
+                        background-repeat: no-repeat;
+               
+                    
+                    
+                    }
+                    .picture4{
+                        background-color:transparent;
+                        border-radius: 150px;
+                    margin-bottom: 50px;
+                        width: 400px;
+                        height: 900px;
+                        background-image: url('/public/images/d2.jpeg');
+                        background-size: contain;
+                        background-position:center;
+                        background-repeat: no-repeat;
+                    flex: 1;
+                   
+                    
+                    
+                    }
+                    .picture5{
+                        background-color:transparent;
+                        border-radius: 150px;
+                    margin-bottom: 50px;
+                        width: 400px;
+                        height: 900px;
+                        background-image: url('/public/images/not1.jpeg');
+                        background-size: contain;
+                        background-position:center;
+                        background-repeat: no-repeat;
+                        flex: 1;
+                     
+                    
+                    
+                    }
+                    .picture6{
+                        background-color:transparent;
+                        border-radius: 150px;
+                    margin-bottom: 50px;
+                        width: 400px;
+                        height: 900px;
+                        background-image: url('/public/images/not2.jpeg');
+                        background-size: contain;
+                        background-position:center;
+                        background-repeat: no-repeat;
+                    
+                    flex: 1;
+                    
+                    
+                    }
+                   .foot{
+                      display: flex;
+                      width: 100%;
+                      flex-direction: row;
+                      background-color: black;
+                      height: 30vh;
+                      justify-content: space-between;
+                      animation: 3s alternate fadeIn;
+                      
+
+
+
+
+                   }
+                   .firstd{
+                    margin-left: 100px;
+                    margin-right: 100px;
+display: flex;
+flex-direction: column;
+
+
+                   }
+                   
+@keyframes slidein {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+  }
+  .card1:hover {
+    transform: translate(0, -10px);
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
+
+
